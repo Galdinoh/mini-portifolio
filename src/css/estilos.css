@@ -6,7 +6,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 
-	color: #040404;
+	color: #000000;
 	font-size: 18px;
 	display: flex;
 	justify-content: center;
@@ -18,8 +18,8 @@ body {
 .cartao {
 	background-color: #6B8E23;
 	width: 370px;
-	border: 2px solid #1f7b00;
-	border-radius: 10px;
+	border: 2px solid #1b8a05;
+	border-radius: 20px;
 	overflow: hidden;
 }
 
@@ -33,7 +33,7 @@ body {
 
 .cartao .minhas-informacoes img {
 	border-radius: 50px;
-	border: 4px solid #167d08;
+	border: 4px solid #0b8904;
 }
 
 .cartao .minhas-informacoes .nome {
@@ -67,11 +67,11 @@ body {
 }
 
 .cartao .abas .aba.selecionado {
-	background-color: 	#5a5a0c;
+	background-color: 	#808000;
 }
 
 .cartao .abas .aba:hover {
-	background-color: #414141;
+	background-color: 	#536b31;
 }
 
 .informacoes-abas {
@@ -102,7 +102,7 @@ body {
 }
 
 .informacao .descricao span {
-	color: #2b830b;
+	color: #ffffff;
 }
 
 .redes-sociais {
@@ -115,27 +115,27 @@ body {
 }
 
 .redes-sociais li a {
-	background-color: #9ACD32;
+	background-color: #36490e;
 	width: 250px;
 	display: block;
 	color: #000000;
 	font-size: 20px;
 	text-align: center;
 	padding: 10px;
-	transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.7s ease-in-out;
     border-radius: 20px;
 }
 
 .redes-sociais .curriculo {
-	background: #9ACD32;
+	background: #6B8E23;
 }
 
 .redes-sociais .linkedin {
-	background: #808000;
+	background: #556B2F;
 }
 
 .redes-sociais .github {
-	background: #556B2F;
+	background: #484802;
 }
 
 .redes-sociais a:hover {
